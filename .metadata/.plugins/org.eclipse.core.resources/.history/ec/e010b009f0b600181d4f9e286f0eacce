@@ -1,0 +1,14 @@
+package glauber.io.utils.date;
+
+import java.util.Date;
+
+import org.junit.Assert;
+
+public class DateUtilsTest {
+
+	@Test
+	public void deveAlugarFilmeComSucesso() throws Exception {
+		Assert.assertTrue(DataUtils.isMesmaData(new Date(), DateUtils.obterDataComDiferencaDias(1)));
+
+	}
+}
