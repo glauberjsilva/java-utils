@@ -1,8 +1,0 @@
-package glauber.io.utils.date;
-
-import org.junit.Assert;
-
-public class DateUtilTest {
-
-	Assert.assertTrue(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.obterDataComDiferencaDias(1)));
-}
